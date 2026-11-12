@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="fusion_frontier"
+version="${file.jarVersion}"
+displayName="Fusion Frontier Companion"
+authors="Fusion Frontier Team"
+description='''Adds in-game progression guidance for the Fusion Frontier modpack.'''
+
+[[dependencies.fusion_frontier]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
